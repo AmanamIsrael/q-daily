@@ -1,0 +1,28 @@
+<ion-header>
+        <ion-navbar color="primary">
+                <button ion-button menuToggle>
+                  <ion-icon name="menu"></ion-icon>
+                </button>
+          <ion-title color="light">
+          Timeline
+          </ion-title>
+        </ion-navbar>
+</ion-header>
+  <ion-content>
+            <ion-title padding ion-text>Today</ion-title>
+              <ion-card padding (click)="presentModal()">
+                      <ion-card-content no-padding (click)="presentModal()" >
+                        The diffrence between stupidity
+                        and genius is that genius has its
+                        limits
+                        <ion-item class="author" text-right>Albert Einstein &nbsp;
+                                </ion-item>
+
+                      </ion-card-content>
+                       <ion-item text-right>
+                                <button class="actions"><ion-icon name="share"></ion-icon> &nbsp;</button>
+                               <button class="actions"><ion-icon name="heart" id="like"></ion-icon></button>
+                                 </ion-item>
+              </ion-card>
+
+</ion-content>

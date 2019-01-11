@@ -1,0 +1,44 @@
+// styles here
+$colors: (
+  primary:    #019AE8,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #ffffff,
+  dark:       #222
+);
+page-slider {
+
+  .slide1Text{
+  font-family: segoe ui;
+  font-size: 20px;
+  font-weight: 400;
+  color: color($colors,primary);
+  margin: 0;
+}
+
+
+.swiper-pagination-bullet{
+  height: 8px;
+  width: 8px;
+}
+.button{
+  background-color:color($colors,primary);
+  color: color($colors,light);
+  width: 50%;
+  border-radius: 15px;
+  border: 0;
+  position: relative;
+  top: 5rem;
+}
+
+.img-loaded{
+      background: transparent;
+      margin: 0 auto;
+      }
+
+  ion-img.img-loaded img {
+    display: inline-block;
+    overflow:hidden;
+  }
+}
+
